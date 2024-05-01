@@ -24,7 +24,7 @@
             {
                 Console.WriteLine("You guessed too high!");
             }
-            else if (guess > favNumber)
+            else if (guess < favNumber)
             {
                 Console.WriteLine("Your guess is too low.  Sorry!");
             }
@@ -43,12 +43,12 @@
             switch (favSub.ToLower())
             {
                 case "math":
-                    Console.WriteLine("Math is cool because there is always something new to learn");
+                    Console.WriteLine("Math is cool because there is always something new to learn!");
             
                     break;
 
                 case "science":
-                    Console.WriteLine("Science is great because it encourages us to ask questions, test, and try new things");
+                    Console.WriteLine("Science is great because it encourages us to ask questions, test, and try new things!");
 
                     break;
 
